@@ -1,0 +1,6 @@
+
+; TM10, 1, 0, 0,
+
+; output scan commands
+
+OUTPUTMOVEWORDIO $110 0

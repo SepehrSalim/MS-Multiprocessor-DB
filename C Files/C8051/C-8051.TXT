@@ -1,0 +1,68 @@
+                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                      ³      In The Name of God      Û
+                      ÀÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   ³ Programming with                                                    Û
+   ³                                                                     Û
+   ³                                   Û
+   ³                                                       Û
+   ³                                       Û
+   ³                                                       Û
+   ³                                   Û
+   ÀÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+                                                 By:   Amirhossein Rezaie                                                                                                                                              By:
+                                                       Nasser Dousty
+                                                       Hamidreza Farzanfar
+                                                       Siyavosh Asraary
+                                                       Haamed Nourhosseiny
+                                                       P.O.Box : 13595-391
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+             
+              
+         
+            
+         
+
+           We hope, that you doing well.
+
+                              ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ Disk Contents ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                              ÀÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ 1) 8051.exe:
+ ÜÜÜÜÜÜÜÜÜÜÜÜ
+
+      It is an archived self extract file.
+    For using it, you must first copy it to C: directory and then execute
+    it in DOS. After execution, you have C51 subdirectory on C: directory.
+      Contents of C:\C51 subdirectory in tree format are:
+
+    C:C51
+    ÃÄÄÄASM
+    ÃÄÄÄBIN
+    ÃÄÄÄBL51
+    ÃÄÄÄDS51
+    ÃÄÄÄEXAMPLES
+    ³   ÀÄÄÄRTX_TINY
+    ÃÄÄÄINC
+    ÃÄÄÄLIB
+    ÃÄÄÄMON51
+    ÀÄÄÄTEMP
+
+      for extra information about that, you can use 8220.txt file in C:\C51
+    subdirectory by editing it.
+
+
+ 2) receive.exe:
+ ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+      Is a program for receiving data from serial port and display characters
+    on computer monitor.
+      In c51 example programs of book, we have used from standard output
+    function "printf" for displaying results. For viewing result of printf
+    (or any other standard output function) in c51, you can use this file,
+    by executon of it. After execution, it waits to receive characters from
+    COM1 serial port with fixed 1200 baud rate.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

@@ -1,0 +1,38 @@
+
+; TM10 PLC Safety, 1, 0, 0,
+
+; output scan commands
+
+; skip initial test except for 1st run
+JUMPONNOTFIRSTSCAN 0 12
+; check for TM10 present
+ENTERVALUE 0 0
+ENTERVALUE $30314D54 0
+IPC6CHECK $110 0
+; ok if true (1)
+JUMPONNONZERO 0 8
+; if not set FW = 12, info ADDR
+ENTERVALUE 12 0
+SAVEOUTPUTMEM 0 -6
+ENTERVALUE 12 0
+SAVEOUTPUTMEM 0 5
+ENTERVALUE 12 0
+SAVEOUTPUTMEM 0 5
+; FST error: BUS timeout, fehlende Karte
+DIRECTSETFW 0 12
+JUMP 0 7
+
+; write low output byte
+IPCNOSTATUSOUTBYTEIO $110 0
+POP 0 0
+; write high output byte
+IPCNOSTATUSOUTBYTEIO $111 1
+POP 0 0
+; combine results
+AND 0 0
+; if true (1) we are done
+JUMPONNONZERO 0 1
+; else no 24 volts
+; set FW = 11, info ADDR
+; FST error: EA-Stufe defekt, defekt in Karte
+DIRECTSETFW 0 11

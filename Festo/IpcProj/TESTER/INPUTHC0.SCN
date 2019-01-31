@@ -1,0 +1,7 @@
+
+; TM10, 1, 0, 0,
+
+; input scan commands
+
+INPUTMOVEWORDIO $110 0
+

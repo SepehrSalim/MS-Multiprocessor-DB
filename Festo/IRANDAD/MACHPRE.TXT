@@ -1,0 +1,14 @@
+; The Command Interpreter commands in this file for machine
+; function will be executed directly before project loading.
+; 
+; You can create additional files with Command Interpreter
+; commands in the project:
+; MACHPOST.TXT : for machine function, after project loading.
+; UNITPRE.TXT  : for unit function, before project loading.
+; UNITPOST.TXT : for unit function, after project loading.
+; 
+; Lines starting with ';' are comments.
+S
+Y!
+LS=3
+$FS
